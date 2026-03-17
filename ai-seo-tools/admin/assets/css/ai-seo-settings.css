@@ -1,0 +1,274 @@
+/* AI SEO Tools Settings Page Custom Styles */
+.form-table tr:not(:last-child) {
+    border-block-end: 1px solid #dcdcde;
+}
+
+/* Ensure spinner is visible and displayed when active */
+.spinner.is-active {
+    visibility: visible !important;
+    display: inline-block !important;
+}
+
+/* Module panel styling */
+.ai-seo-module-panel {
+    background: #f8fafc;
+    border-left: 4px solid #0073aa;
+    padding: 18px 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    max-width: 800px;
+}
+
+/* Warning and info boxes */
+.ai-seo-warning-box {
+    background: #ffebe8;
+    color: #a00;
+    border: 1px solid #a00;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+.ai-seo-info-box {
+    background: #e7f3fe;
+    color: #084d7a;
+    border: 1px solid #b6e0fe;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+/* Links list */
+.ai-seo-links-list {
+    list-style: disc;
+    margin: 0 0 0 18px;
+    padding: 0;
+}
+.ai-seo-links-list a {
+    color: #084d7a;
+    text-decoration: underline;
+}
+
+/* Filter form */
+.ai-seo-filter-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 18px 0 12px 0;
+}
+
+/* Table container */
+.ai-seo-table {
+    max-width: 1000px;
+}
+
+/* Spinner and status inline */
+.ai-seo-spinner-inline {
+    display: none;
+    float: none;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.ai-seo-status-inline {
+    display: none;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+/* Muted list styling */
+.ai-seo-muted-list {
+    color: #888;
+}
+
+/* Content suggestions margin */
+.ai-seo-content-suggestions {
+    margin-top: 1em;
+}
+
+/* Settings page grouping and labels */
+.ai-seo-setting-group {
+    margin-bottom: 18px;
+}
+.ai-seo-setting-label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+/* Toggleable custom fields */
+#ai-seo-lang-custom-wrap,
+#ai-seo-prompt-custom-wrap {
+    margin-top: 6px;
+}
+
+/* Input and control sizing */
+.ai-seo-input-small {
+    width: 250px;
+}
+.ai-seo-input-narrow {
+    width: 100px;
+}
+.ai-seo-select-narrow {
+    min-width: 120px;
+}
+.ai-seo-textarea {
+    width: 100%;
+    max-width: 600px;
+}
+.ai-seo-description {
+    margin-bottom: 0;
+}
+
+/* Info labels and links */
+.ai-seo-info-label {
+    font-weight: bold;
+    color: #084d7a;
+}
+.ai-seo-info-heading {
+    font-weight: bold;
+    color: #084d7a;
+    display: block;
+    margin-bottom: 4px;
+}
+.ai-seo-link {
+    color: #084d7a;
+    text-decoration: underline;
+}
+
+/* Warning text */
+.ai-seo-warning-text {
+    color: orange;
+}
+
+/* Module panels */
+.ai-seo-module-title {
+    margin-top: 0;
+    color: #0073aa;
+    font-size: 1.4em;
+}
+.ai-seo-module-desc {
+    font-size: 1.1em;
+    color: #222;
+    margin-bottom: 0.7em;
+}
+.ai-seo-module-list {
+    font-size: 1.1em;
+    color: #222;
+}
+
+/* Bulk UI */
+.ai-seo-bulk-notice {
+    margin-top: 10px;
+}
+.ai-seo-inline-section {
+    margin-bottom: 10px;
+}
+.ai-seo-progress-container {
+    background: #eee;
+    border: 1px solid #ccc;
+    padding: 2px;
+}
+.ai-seo-progress-bar {
+    background: #0073aa;
+    height: 20px;
+    width: 0%;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+}
+.ai-seo-list-container {
+    margin-top: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px dashed #ccc;
+    padding: 5px;
+}
+.ai-seo-error-list {
+    margin-top: 15px;
+    border: 1px solid #dc3232;
+    padding: 5px 10px;
+    max-height: 150px;
+    overflow-y: auto;
+    background: #fef7f7;
+}
+.ai-seo-list {
+    margin-top: 0;
+}
+
+/* Filter label */
+.ai-seo-filter-label {
+    font-weight: bold;
+}
+
+/* Hidden original content */
+.ai-seo-original-content {
+    display: none;
+}
+
+/* Badges */
+.ai-seo-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    min-width: 60px;
+    text-align: center;
+}
+.ai-seo-badge--high {
+    background: #e74c3c;
+    color: #fff;
+}
+.ai-seo-badge--low {
+    background: #27ae60;
+    color: #fff;
+}
+
+/* Pagination */
+.ai-seo-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: 18px 0;
+}
+.ai-seo-pagination-link {
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.ai-seo-pagination-link--active {
+    background: #0073aa;
+    color: #fff;
+}
+
+/* Note paragraphs */
+.ai-seo-note {
+    margin-top: 1em;
+    color: #666;
+}
+
+/* Separator */
+.ai-seo-separator {
+    margin-top: 40px;
+}
+
+/* Section margin top */
+.ai-seo-section {
+    margin-top: 30px;
+}
+
+/* Larger inline status */
+.ai-seo-status-inline-large {
+    margin-left: 10px;
+}
+
+/* Progress wrapper */
+.ai-seo-progress-wrapper {
+    margin-top: 15px;
+}
+
+/* Section title spacing */
+.ai-seo-section-title {
+    margin-top: 2em;
+} 
